@@ -12,9 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let greenView = GreenView(frame: CGRect.zero)
+        view.addSubview(greenView)
+        greenView.translatesAutoresizingMaskIntoConstraints = false
+        greenView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        greenView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 80).isActive = true
+        greenView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -80).isActive = true
+        greenView.heightAnchor.constraint(equalToConstant: 100).isActive = true
     }
-
 
 }
 

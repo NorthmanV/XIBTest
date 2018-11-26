@@ -1,14 +1,14 @@
 //
-//  BlueView.swift
+//  GreenView.swift
 //  XIBTest
 //
-//  Created by Ruslan Akberov on 24/11/2018.
+//  Created by Ruslan Akberov on 26/11/2018.
 //  Copyright © 2018 Ruslan Akberov. All rights reserved.
 //
 
 import UIKit
 
-class BlueView: UIView {
+class GreenView: UIView {
     
     @IBOutlet weak var contentView: UIView!
     
@@ -23,11 +23,10 @@ class BlueView: UIView {
     }
     
     private func commonInit() {
-        Bundle.main.loadNibNamed("BlueView", owner: self, options: nil)
+        Bundle.main.loadNibNamed("GreenView", owner: self, options: nil)
         addSubview(contentView)
         contentView.frame = self.bounds
 //        Unnecessary?
 //        contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
     }
-    
 }

@@ -14,6 +14,8 @@
 		87E4446B21A9DE7600466C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E4446921A9DE7600466C97 /* LaunchScreen.storyboard */; };
 		87E4447321A9E37100466C97 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E4447221A9E37100466C97 /* BlueView.xib */; };
 		87E4447521A9E50E00466C97 /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E4447421A9E50E00466C97 /* BlueView.swift */; };
+		87E4447721AC66DD00466C97 /* GreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E4447621AC66DD00466C97 /* GreenView.xib */; };
+		87E4447921AC671D00466C97 /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E4447821AC671D00466C97 /* GreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		87E4446C21A9DE7600466C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87E4447221A9E37100466C97 /* BlueView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
 		87E4447421A9E50E00466C97 /* BlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueView.swift; sourceTree = "<group>"; };
+		87E4447621AC66DD00466C97 /* GreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenView.xib; sourceTree = "<group>"; };
+		87E4447821AC671D00466C97 /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				87E4446221A9DE7500466C97 /* ViewController.swift */,
 				87E4447221A9E37100466C97 /* BlueView.xib */,
 				87E4447421A9E50E00466C97 /* BlueView.swift */,
+				87E4447621AC66DD00466C97 /* GreenView.xib */,
+				87E4447821AC671D00466C97 /* GreenView.swift */,
 				87E4446421A9DE7500466C97 /* Main.storyboard */,
 				87E4446721A9DE7600466C97 /* Assets.xcassets */,
 				87E4446921A9DE7600466C97 /* LaunchScreen.storyboard */,
@@ -132,6 +138,7 @@
 				87E4446B21A9DE7600466C97 /* LaunchScreen.storyboard in Resources */,
 				87E4446821A9DE7600466C97 /* Assets.xcassets in Resources */,
 				87E4446621A9DE7500466C97 /* Main.storyboard in Resources */,
+				87E4447721AC66DD00466C97 /* GreenView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +151,7 @@
 			files = (
 				87E4446321A9DE7500466C97 /* ViewController.swift in Sources */,
 				87E4447521A9E50E00466C97 /* BlueView.swift in Sources */,
+				87E4447921AC671D00466C97 /* GreenView.swift in Sources */,
 				87E4446121A9DE7500466C97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
